@@ -2,5 +2,5 @@
 	enrichments		Enriched Metadata													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	ELSSTTerm	ELSST Term	This element contains a relevant term from the European Language Social Science Thesaurus.		text	0		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
-	cbsVariableVocURL	CBS Variable Vocubulary Term	This element contains the relevant Vocabulary URL for a variable used in a CBS dataset.		text	1		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
-	cbsTaxonomyVocURL	CBS Taxonomy Term 	This element contains the relevant Vocabulary URL for a keyword used in a CBS dataset.		text	2		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
+	cbsVariableVocURL	CBS Variable Vocubulary Term	This element contains the relevant term and linked URL for a variable used in a CBS dataset.		text	1		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
+	cbsTaxonomyVocURL	CBS Taxonomy Term 	This element contains the relevant Taxonomy Term and linked URL for a keyword used in a CBS dataset.		text	2		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
