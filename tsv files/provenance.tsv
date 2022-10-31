@@ -7,3 +7,4 @@
 	invokedBy	Invoked by	The user name of the person who invoked the workflow.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
 	gitRepository	Git Repository Name	The name of the Git Repository where the workflow information is stored.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
 	workflowOrder	Order	The sequence number of the workflow.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
+	calledURL	Called URL	The URL used to invoke the workflow.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
