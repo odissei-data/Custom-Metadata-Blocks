@@ -4,4 +4,4 @@
 	ELSSTTerm	ELSST Term	This element contains a relevant term from the European Language Social Science Thesaurus.		text	0		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
 	cbsVariableVocURL	CBS Variable Vocubulary URL	This element contains the relevant Vocabulary URL for a variable used in a CBS dataset.		text	1		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
 	cbsThemaVocURL	CBS Theme Vocubulary URL	This element contains the relevant Vocabulary URL for a theme used in a CBS dataset.		text	2		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
-	cbsTrefwoordVocURL	CBS Theme Vocubulary URL	This element contains the relevant Vocabulary URL for a keyword used in a CBS dataset.		text	3		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
+	cbsTrefwoordVocURL	CBS Keyword Vocubulary URL	This element contains the relevant Vocabulary URL for a keyword used in a CBS dataset.		text	3		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
