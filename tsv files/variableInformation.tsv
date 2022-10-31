@@ -1,0 +1,16 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	variableInformation		Variable Information													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	variable	Variable	This element describes all of the features of a single (conceptual)variable in a social science data file.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		variableInformation	
+	conceptVariableName	Conceptual Variable Name	Name of the conceptual variable.		text	1		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableDefinition	Conceptual Variable Definition	The definition of the conceptual variable.		text	2		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableObjecttype	Conceptual Variable Object Type	The related object type for the conceptual variable.		text	3		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableValidFrom	Conceptual Variable Valid from	Valid from date provided by the metadata distributor.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableVersion	Conceptual Variable Version	Version number of the conceptual variable provided by the metadata distributor.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableId	Variable ID	Id to uniquely identify the variable.		text	6		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableName	Variable Name	Name of the variable.		text	7		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableLabel	Variable Label	Short description of the variable.		text	8		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.		url	9		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		text	10		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		text	11		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableDataType	Variable Data Type	Data type of the variable.		text	12		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
