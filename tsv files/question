@@ -1,0 +1,8 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	questionInformation	questionInformation	Question Information													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	questionSchemeName	Question Scheme Name	The name of the questionnaire used.		text	0		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		questionInformation	
+	questionSchemeDescription	Question Scheme Description	A short description of the questionnaire used.		text	1		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE		questionInformation	
+	question	Question	This field contains all information about a single question from the questionnaire.		none	2		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		questionInformation	
+	questionId	Question ID	Identifier for the question.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
+	questionText	Question Text	The literal question as stated in the questionnaire.		text	4		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
