@@ -4,7 +4,7 @@
 	variable	Variable	This element describes all of the features of a single (conceptual)variable in a social science data file.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		variableInformation	
 	conceptVariableName	Conceptual Variable Name	Name of the conceptual variable.		text	1		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableDefinition	Conceptual Variable Definition	The definition of the conceptual variable.		text	2		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableID	Conceptual Variable ID	The ID of the conceptual variable.		text	3		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableID	Conceptual Variable ID	The ID of the conceptual variable.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableObjecttype	Conceptual Variable Object Type	The related object type for the conceptual variable.		text	4		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableValidFrom	Conceptual Variable Valid from	Valid from date provided by the metadata distributor.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableVersion	Conceptual Variable Version	Version number of the conceptual variable provided by the metadata distributor.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
