@@ -6,4 +6,4 @@
  	UniekeNaam	Unieke Naam	Unieke naam van het dataontwerp in de DSC catalogus.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigVanaf	Valid from	Geldig vanaf datum van het dataontwerp in de DSC catalogus.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigTot	Valid until	Geldig tot datum van het dataontwerp in de DSC catalogus.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
- 	Versie	Version	Versie nummer van het dataontwerp.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
+ 	Versie	Version	Versienummer van het dataontwerp.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
