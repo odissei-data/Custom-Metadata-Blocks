@@ -4,7 +4,3 @@
 	workflow	Workflow Information	This element contains information about how this metadata was gathered.		none	0		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		provenance	
 	workflowId	Workflow ID	This contains the unique workflow ID that was used.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
 	workflowURI	Workflow URI	The URI that belongs to the unique workflow ID.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	invokedBy	Invoked by	The user name of the person who invoked the workflow.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	gitRepository	Git Repository Name	The name of the Git Repository where the workflow information is stored.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	workflowOrder	Order	The sequence number of the workflow.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	calledURL	Called URL	The URL used to invoke the workflow.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
