@@ -5,4 +5,5 @@
 	questionSchemeDescription	Question Scheme Description	A short description of the questionnaire used.		text	1		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE		questionInformation	
 	question	Question	This field contains all information about a single question from the questionnaire.		none	2		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		questionInformation	
 	questionId	Question ID	Identifier for the question.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
-	questionText	Question Text	The literal question as stated in the questionnaire.		text	4		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
+	questionName	Question Name	Name of the question.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
+	questionText	Question Text	The literal question as stated in the questionnaire.		text	5		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	question	questionInformation	
