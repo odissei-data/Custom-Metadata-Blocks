@@ -1,6 +1,6 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	provenance		Provenance Metadata													
-#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	workflow	Workflow Information	This element contains information about how this metadata was gathered.		none	0		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		provenance	
 	workflowId	Workflow ID	This contains the unique workflow ID that was used.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	workflowURI	Workflow URI	The URI that belongs to the unique workflow ID.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
+	workflowURI	Workflow URI	The URI that belongs to the unique workflow ID.	https://	url	2	<a href="#VALUE" target="_blank" rel="noopener">#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance
