@@ -17,7 +17,8 @@
 	variableLabel	Variable Label	Short description of the variable.		text	13		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.		url	14		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		text	15		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		text	16		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableDataType	Variable Data Type	Data type of the variable.		text	17		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		text	18		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		text	19		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	questionReference	Question Reference URN	URN of the Question Item that is used as variable.		text	16		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		text	17		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableDataType	Variable Data Type	Data type of the variable.		text	18		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		text	19		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		text	20		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
