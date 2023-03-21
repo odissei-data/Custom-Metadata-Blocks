@@ -2,10 +2,10 @@
 	ELSSTTopics	ELSSTTopics	ELSST Topics													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	topic	Topic	This field contains an ELSST topic matched to a keyword.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		ELSSTTopics	
-	keyword Keyword	The keyword that was matched.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarLabel1	elsstVarLabel1 The label of the ELSST topic.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarUri1	elsstVarUri1 url  https://  The URI of the ELSST topic.		text	3 <a href='#VALUE' target='_blank'>#VALUE</a>		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarLabel2	elsstVarLabel2 The label of the ELSST topic.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarUri2	elsstVarUri2 url  https://  The URI of the ELSST topic.		text	5 <a href='#VALUE' target='_blank'>#VALUE</a>		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarLabel3	elsstVarLabel3 The label of the ELSST topic.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
-	elsstVarUri3	elsstVarUri3 url  https://  The URI of the ELSST topic.		text	7 <a href='#VALUE' target='_blank'>#VALUE</a>		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	keyword	 Keyword	The keyword that was matched.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarLabel1	elsstVarLabel1 	The label of the ELSST topic.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarUri1	elsstVarUri1	The URI of the ELSST topic.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarLabel2	elsstVarLabel2	The label of the ELSST topic.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarUri2	elsstVarUri2	The URI of the ELSST topic.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarLabel3	elsstVarLabel3	The label of the ELSST topic.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
+	elsstVarUri3	elsstVarUri3	The URI of the ELSST topic.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	topic	ELSSTTopics	
