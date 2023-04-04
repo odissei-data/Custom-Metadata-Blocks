@@ -15,7 +15,7 @@
 	variableId	Variable ID	Id to uniquely identify the variable.		text	11		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableName	Variable Name	Name of the variable.		text	12		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableLabel	Variable Label	Short description of the variable.		text	13		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	<a href='#VALUE' target='_blank'>#VALUE</a>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		text	15		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		text	16		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableDataType	Variable Data Type	Data type of the variable.		text	17		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
