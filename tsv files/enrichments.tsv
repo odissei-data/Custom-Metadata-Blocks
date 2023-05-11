@@ -6,8 +6,8 @@
 	elsstVarLabel1	ELSST Preferred Term Name	The preferred term name of the ELSST concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarUri1	ELSST URI	The URI of the ELSST concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarLabel2	ELSST Preferred Term Name -2	The preferred term name of the ELSST concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri2	ElSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
+	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri3	ElSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
+	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	cbsVariableVocURL	CBS Variable Vocubulary Term	This element contains the relevant term and linked URL for a variable used in a CBS dataset.		text	8		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
 	cbsTaxonomyVocURL	CBS Taxonomy Term 	This element contains the relevant Taxonomy Term and linked URL for a keyword used in a CBS dataset.		text	9		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
