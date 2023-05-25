@@ -9,9 +9,9 @@
 	conceptVariableValidFrom	Conceptual Variable Valid from	Valid from date provided by the metadata distributor.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableVersion	Conceptual Variable Version	Version number of the conceptual variable provided by the metadata distributor.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	conceptVariableVersionResponsibility	Conceptual Variable Version Responsibility	Person or organization responsible for the version change.		text	7		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableGroeppad	Variabelengroeppad	Variabelengroeppad indicated by CBS.		text	8		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableThema	Thema	Thema indicated by CBS.		text	9		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableWaardestelselnaam	Waardestelselnaam	Waardestelselnaam indicated by CBS.		text	10		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableGroeppad	Variable group path	Variable group path indicated by CBS.		text	8		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableThema	Theme	Theme indicated by CBS.		text	9		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	conceptVariableWaardestelselnaam	Value system name	Value system name indicated by CBS.		text	10		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableId	Variable ID	Id to uniquely identify the variable.		text	11		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableName	Variable Name	Name of the variable.		text	12		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableLabel	Variable Label	Short description of the variable.		text	13		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
@@ -19,5 +19,5 @@
 	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		text	15		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		text	16		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableDataType	Variable Data Type	Data type of the variable.		text	17		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		text	18		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		text	19		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableVolgnummer	Serial Number	Serial number as indicated by CBS.		text	18		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	variableTrefwoord	Keyword	Keyword as indicated by CBS.		text	19		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
