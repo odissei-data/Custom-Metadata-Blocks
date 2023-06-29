@@ -15,7 +15,7 @@
 	conceptVariableWaardestelselnaam	Waardestelselnaam	Waardestelselnaam indicated by CBS.		textbox	11	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableId	Variable ID	Id to uniquely identify the variable.		textbox	12	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableLabel	Variable Label	Short description of the variable.		textbox	13	- <b>#NAME:</b> #VALUE <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:<b> <a href='#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:</b> <a href='#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
 	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		textbox	15	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		textbox	16	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	variableDataType	Variable Data Type	Data type of the variable.		textbox	17	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
