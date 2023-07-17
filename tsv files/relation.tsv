@@ -1,0 +1,24 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	dansRelationMetadata		Relation Metadata													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	dansAudience	Audience	Use autocomplete to select the scientific disciplines to which the dataset is relevant.		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		dansRelationMetadata	
+	dansCollection	Collection	Use autocomplete to add the dataset to the collection of all datasets from a certain organisation.		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansRelationMetadata	
+	dansRelation	Relation or Related Material	Enter the details of a related dataset or other source		none	2		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		dansRelationMetadata	
+	dansRelationType	Type	Specify the type of relation between the current dataset and the related source. See https://www.dublincore.org/specifications/dublin-core/rdf-relation-types/, use 'Relation' if the relation type cannot be described with any of the other available qualifiers.		text	3		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	dansRelation	dansRelationMetadata	
+	dansRelationText	Text	Enter the title of the related dataset or other source		text	4		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansRelationMetadata	
+	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	5	<a href="#VALUE" target="_blank" rel="noopener">#VALUE</a>	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansRelationMetadata	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	dansRelationType	relation	http://purl.org/dc/terms/relation	0												
+	dansRelationType	conforms to	http://purl.org/dc/terms/conformsTo	1												
+	dansRelationType	has format	http://purl.org/dc/terms/hasFormat	2												
+	dansRelationType	has part	http://purl.org/dc/terms/hasPart	3												
+	dansRelationType	references	http://purl.org/dc/terms/references	4												
+	dansRelationType	replaces	http://purl.org/dc/terms/replaces	5												
+	dansRelationType	requires	http://purl.org/dc/terms/requires	6												
+	dansRelationType	has version	http://purl.org/dc/terms/hasVersion	7												
+	dansRelationType	is format of	http://purl.org/dc/terms/isFormatOf	8												
+	dansRelationType	is part of	http://purl.org/dc/terms/isPartOf	9												
+	dansRelationType	is referenced by	http://purl.org/dc/terms/isReferencedBy	10												
+	dansRelationType	is replaced by	http://purl.org/dc/terms/isReplacedBy	11												
+	dansRelationType	is required by	http://purl.org/dc/terms/isRequiredBy	12												
+	dansRelationType	is version of	http://purl.org/dc/terms/isVersionOf	13												
