@@ -3,8 +3,7 @@
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	providerName	Provider Name	Name of the organisation that provided the metadata		text	0		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
 	NaamInDscCatalogus	Name in DSC Catalogue	Name of the data design in the DSC catalogue.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
- 	UniekeNaam	Unique Name	Unique name of the data design in the DSC catalogue.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
-	CBSAccess	CBS Access	Beschrijft de beschikbaarheid van de data bij het CBS.		text	3		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE			CBSMetadata	
+ 	UniekeNaam	Unique Name	Unique name of the data design in the DSC catalogue.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata		CBSAccess	CBS Access	Beschrijft de beschikbaarheid van de data bij het CBS.		text	3		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE			CBSMetadata	
  	Eigenaar	Owner	Owner of the data design in the DSC catalogue.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigVanaf	Valid from	Valid from date of the data design in the DSC catalogue.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigTot	Valid until	Valid until date of the data design in the DSC catalogue.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
