@@ -9,4 +9,3 @@
  	GeldigVanaf	Valid from	Valid from date of the data design in the DSC catalogue.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigTot	Valid until	Valid until date of the data design in the DSC catalogue.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	Versie	Version	Version number of the data design.		text	7		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
-	
