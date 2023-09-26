@@ -1,23 +1,23 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	variableInformation		Variable Information													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	variable	Variable	This element describes all of the features of a single (conceptual)variable in a social science data file.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		variableInformation	
-	variableName	Variable Name	Name of the variable.		textbox	1	<b>#VALUE:</b>  <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableName	Conceptual Variable Name	Name of the conceptual variable.		textbox	2	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableDefinition	Conceptual Variable Definition	The definition of the conceptual variable.		textbox	3	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableID	Conceptual Variable ID	The ID of the conceptual variable.		textbox	4	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableObjecttype	Conceptual Variable Object Type	The related object type for the conceptual variable.		textbox	5	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableValidFrom	Conceptual Variable Valid from	Valid from date provided by the metadata distributor.		textbox	6	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableVersion	Conceptual Variable Version	Version number of the conceptual variable provided by the metadata distributor.		textbox	7	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableVersionResponsibility	Conceptual Variable Version Responsibility	Person or organization responsible for the version change.		textbox	8	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableGroeppad	Variabelengroeppad	Variabelengroeppad indicated by CBS.		textbox	9	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableThema	Thema	Thema indicated by CBS.		textbox	10	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
-	conceptVariableWaardestelselnaam	Waardestelselnaam	Waardestelselnaam indicated by CBS.		textbox	11	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableId	Variable ID	Id to uniquely identify the variable.		textbox	12	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	variableLabel	Variable Label	Short description of the variable.		textbox	13	- <b>#NAME:</b> #VALUE <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	variableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:</b> <a href='https://skosmos.odissei.nl/cbs/en_US/page/?clang=nl&uri=#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
-	variableDefinition	Variabele Definition	Extra information related to the definition of the variable.		textbox	15	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		textbox	16	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableDataType	Variable Data Type	Data type of the variable.		textbox	17	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		textbox	18	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	variableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		textbox	19	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariable	Variable	This element describes all of the features of a single (conceptual)variable in a social science data file.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		variableInformation	
+	odisseiVariableName	Variable Name	Name of the variable.		textbox	1	<b>#VALUE:</b>  <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableName	Conceptual Variable Name	Name of the conceptual variable.		textbox	2	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableDefinition	Conceptual Variable Definition	The definition of the conceptual variable.		textbox	3	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableID	Conceptual Variable ID	The ID of the conceptual variable.		textbox	4	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableObjecttype	Conceptual Variable Object Type	The related object type for the conceptual variable.		textbox	5	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableValidFrom	Conceptual Variable Valid from	Valid from date provided by the metadata distributor.		textbox	6	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableVersion	Conceptual Variable Version	Version number of the conceptual variable provided by the metadata distributor.		textbox	7	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableVersionResponsibility	Conceptual Variable Version Responsibility	Person or organization responsible for the version change.		textbox	8	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableGroeppad	Variabelengroeppad	Variabelengroeppad indicated by CBS.		textbox	9	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableThema	Thema	Thema indicated by CBS.		textbox	10	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiConceptVariableWaardestelselnaam	Waardestelselnaam	Waardestelselnaam indicated by CBS.		textbox	11	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableId	Variable ID	Id to uniquely identify the variable.		textbox	12	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableLabel	Variable Label	Short description of the variable.		textbox	13	- <b>#NAME:</b> #VALUE <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableVocabularyURI	Variable Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:</b> <a href='https://skosmos.odissei.nl/cbs/en_US/page/?clang=nl&uri=#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableDefinition	Variabele Definition	Extra information related to the definition of the variable.		textbox	15	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableProcessingInstruction	Variabele Processing Instruction	Information about how the variable was processed.		textbox	16	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableDataType	Variable Data Type	Data type of the variable.		textbox	17	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		textbox	18	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		textbox	19	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
