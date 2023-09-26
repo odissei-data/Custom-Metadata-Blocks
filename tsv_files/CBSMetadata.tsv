@@ -9,4 +9,4 @@
  	GeldigVanaf	Valid from	Valid from date of the data design in the DSC catalogue.		text	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	GeldigTot	Valid until	Valid until date of the data design in the DSC catalogue.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
  	Versie	Version	Version number of the data design.		text	7		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	
-	statlineTabel	Statline Table	Link naar een statline tabel gerelateerd aan de dataset.	https://	url	8	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	TRUE	TRUE	FALSE	FALSE		CBSMetadata	
+	statlineTabel	Statline Table	Link to a statline table related to the dataset.	https://	url	8	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	TRUE	TRUE	FALSE	FALSE		CBSMetadata	
