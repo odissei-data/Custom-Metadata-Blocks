@@ -11,4 +11,4 @@
 	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	cbsVariableVocURL	CBS Variable Vocubulary Term	This element contains the relevant term and linked URL for a variable used in a CBS dataset.		text	8		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
 	cbsTaxonomyVocURL	CBS Taxonomy Term 	This element contains the relevant Taxonomy Term and linked URL for a keyword used in a CBS dataset.		text	9		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		enrichments	
-	frequencyOfUse	Frequency of Use	The frequency with which a dataset is used		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
+	frequencyOfUse	Frequency of Use	The Frequency of Use estimates how popular a given microdataset is amongst CBS users.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
