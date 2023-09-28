@@ -19,5 +19,5 @@
 	odisseiVariableDefinition	Definition	Extra information related to the definition of the variable.		textbox	15	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	odisseiVariableProcessingInstruction	Processing Instruction	Information about how the variable was processed.		textbox	16	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
 	odisseiVariableDataType	Data Type	Data type of the variable.		textbox	17	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	odisseiVariableVolgnummer	Volgnummer	Volgnummer as indicated by CBS.		textbox	18	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
-	odisseiVariableTrefwoord	Trefwoord	Trefwoord as indicated by CBS.		textbox	19	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableVolgnummer	Reference Number	Reference number as indicated by CBS.		textbox	18	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	variable	variableInformation	
+	odisseiVariableTrefwoord	Keyword	Keyword as indicated by CBS.		textbox	19	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	variable	variableInformation	
