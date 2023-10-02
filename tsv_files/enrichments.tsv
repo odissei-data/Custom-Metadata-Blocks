@@ -9,4 +9,4 @@
 	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	frequencyOfUse	Frequency of Use	The Frequency of Use estimates how popular a given microdataset is amongst CBS users.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
+	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
