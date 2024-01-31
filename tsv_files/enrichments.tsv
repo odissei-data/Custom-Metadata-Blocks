@@ -9,4 +9,12 @@
 	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
+	cbsTaxTerm	CBS taxonomy Term	This field contains a term from the CBS taxonomy vocabulary matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
+	cbsTaxMatchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the ELSST.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarLabel1	CBS Taxonomy Preferred Term Name	The preferred term name of the CBS taxonomy concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarUri1	CBS Taxonomy URI	The URI of the CBS taxonomy concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarLabel2	CBS Taxonomy Preferred Term Name -2	The preferred term name of the CBS taxonomy concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarUri2	CBS Taxonomy URI -2	The URI of the CBS taxonomy concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarLabel3	CBS Taxonomy Preferred Term Name -3	The preferred term name of the CBS taxonomy concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
+	cbsTaxVarUri3	CBS Taxonomy URI -3	The URI of the CBS taxonomy concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
 	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
