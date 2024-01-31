@@ -17,7 +17,7 @@
 	cbsTaxVarUri2	CBS Taxonomy URI -2	The URI of the CBS taxonomy concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
 	cbsTaxVarLabel3	CBS Taxonomy Preferred Term Name -3	The preferred term name of the CBS taxonomy concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
 	cbsTaxVarUri3	CBS Taxonomy URI -3	The URI of the CBS taxonomy concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsVocabTerm	CBS taxonomy Term	This field contains a term from the CBS taxonomy vocabulary matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
+	cbsVocabTerm	CBS Vocabulary Term	This field contains a term from the CBS taxonomy vocabulary matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
 	cbsVocabMatchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the ELSST.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
 	cbsVocabVarLabel1	CBS Begrippen Preferred Term Name	The preferred term name of the CBS concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsVocabTerm	enrichments	
 	cbsVocabVarUri1	CBS Begrippen URI	The URI of the CBS concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
