@@ -1,28 +1,13 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	enrichments		Enriched Metadata													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	elsstTerm	ELSST Term	This field contains an ELSST (European Language Social Science Thesaurus) term matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
-	matchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the ELSST.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarLabel1	ELSST Preferred Term Name	The preferred term name of the ELSST concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri1	ELSST URI	The URI of the ELSST concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarLabel2	ELSST Preferred Term Name -2	The preferred term name of the ELSST concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	cbsTaxTerm	CBS taxonomy Term	This field contains a term from the CBS taxonomy vocabulary matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
-	cbsTaxMatchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the ELSST.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarLabel1	CBS Taxonomy Preferred Term Name	The preferred term name of the CBS taxonomy concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarUri1	CBS Taxonomy URI	The URI of the CBS taxonomy concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarLabel2	CBS Taxonomy Preferred Term Name -2	The preferred term name of the CBS taxonomy concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarUri2	CBS Taxonomy URI -2	The URI of the CBS taxonomy concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarLabel3	CBS Taxonomy Preferred Term Name -3	The preferred term name of the CBS taxonomy concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsTaxVarUri3	CBS Taxonomy URI -3	The URI of the CBS taxonomy concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsTaxTerm	enrichments	
-	cbsVocabTerm	CBS Vocabulary Term	This field contains a term from the CBS taxonomy vocabulary matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
-	cbsVocabMatchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the ELSST.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarLabel1	CBS Begrippen Preferred Term Name	The preferred term name of the CBS concept.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarUri1	CBS Begrippen URI	The URI of the CBS concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarLabel2	CBS Begrippen Preferred Term Name -2	The preferred term name of the CBS concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarUri2	CBS Begrippen URI -2	The URI of the CBS concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarLabel3	CBS Begrippen Preferred Term Name -3	The preferred term name of the CBS concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	cbsVocabVarUri3	CBS Begrippen URI -3	The URI of the CBS concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsVocabTerm	enrichments	
-	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
+	term	Term	This field contains a vocabulary term or concept matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
+	matchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the vocabulary.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
+	vocabulary	Vocabulary	The vocabulary was used to match terms from the original metadata.		text	2		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
+	vocabVarLabel1	ELSST Preferred Term Name	The preferred term name of the vocabulary concept.		text	3		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
+	vocabVarUri1	ELSST URI	The URI of the vocabulary concept.	https://	url	4	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
+	vocabVarLabel2	ELSST Preferred Term Name -2	The preferred term name of the vocabulary concept.		text	5		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
+	vocabVarUri2	ELSST URI -2	The URI of the vocabulary concept.	https://	url	6	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
+	vocabVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the vocabulary concept.		text	7		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
+	vocabVarUri3	ELSST URI -3	The URI of the vocabulary concept.	https://	url	8	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
+	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	9		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
