@@ -11,3 +11,6 @@
 	vocabVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the vocabulary concept.		text	7		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
 	vocabVarUri3	ELSST URI -3	The URI of the vocabulary concept.	https://	url	8	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
 	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	9		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
+	cbsLinkage	Linkage to CBS microdata	This field contains information on the linkage with CBS microdata.		none	10		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		enrichments
+	cbsLinkageBoolean	Linkage to CBS microdata	This field states if the field is linkable with a yes/no.		text	11		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	cbsLinkage	enrichments	
+	cbsLinkageDetails	Linkage to CBS microdata (details)	This field contains additional details on the CBS linkage.		textbox	12		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	cbsLinkage	enrichments	
