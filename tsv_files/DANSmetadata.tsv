@@ -8,7 +8,7 @@
 	dansRelation	Relation or Related Material	Enter the details of a related dataset or other source		none	2		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		dansMetadata	
 	dansRelationType	Type	Specify the type of relation between the current dataset and the related source. See https://www.dublincore.org/specifications/dublin-core/rdf-relation-types/, use 'Relation' if the relation type cannot be described with any of the other available qualifiers.		text	3		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	dansRelation	dansRelationMetadata	
 	dansRelationText	Text	Enter the title of the related dataset or other source		text	4		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
-	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	5	<a href="#VALUE" target="_blank" rel="noopener">#VALUE</a>	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	5		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
 	dansElsstClassification	Keyword ELSST	A key term from the European Language Social Science Thesaurus (ELSST) that describes an important aspect of the Dataset. 		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata
 	dansCessdaClassification	Topic Classification CESSDA	Indicates a broad, important topic selected from the CESSDA Topic Classification that the Dataset covers. 		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
