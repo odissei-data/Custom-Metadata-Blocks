@@ -1,6 +1,203 @@
 #metadataBlock	name	dataverseAlias	displayName													
-	dansMetadata		DANS Metadata													  
+	dansMetadata		DANS Specific metadata													  
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	workflow	Workflow Information	This element contains information about how this metadata was gathered.		none	0		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		provenance	
-	workflowId	Workflow ID	This contains the unique workflow ID that was used.		text	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
-	workflowURI	Workflow URI	The URI that belongs to the unique workflow ID.	https://	url	2	<a href='#VALUE' target='_blank' rel='noopener'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	workflow	provenance	
+	dansPersonalDataPresent	Personal Data In Dataset?	DANS needs to know whether your dataset contains personal data in the sense of the General Data Protection Regulation (GDPR).		text	1		FALSE	TRUE	FALSE	FALSE	TRUE	TRUE		dansMetadata	
+	dansMetadataLanguage	Language Of Metadata	Specify which language was used to describe this dataset		text	2		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansAudience	Audience	Use autocomplete to select the scientific disciplines to which the dataset is relevant.		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		dansMetadata	
+	dansCollection	Collection	Use autocomplete to add the dataset to the collection of all datasets from a certain organisation.		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansRelation	Relation or Related Material	Enter the details of a related dataset or other source		none	2		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		dansMetadata	
+	dansRelationType	Type	Specify the type of relation between the current dataset and the related source. See https://www.dublincore.org/specifications/dublin-core/rdf-relation-types/, use 'Relation' if the relation type cannot be described with any of the other available qualifiers.		text	3		TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	dansRelation	dansRelationMetadata	
+	dansRelationText	Text	Enter the title of the related dataset or other source		text	4		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	5	<a href="#VALUE" target="_blank" rel="noopener">#VALUE</a>	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansElsstClassification	Keyword ELSST	A key term from the European Language Social Science Thesaurus (ELSST) that describes an important aspect of the Dataset. 		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata
+	dansCessdaClassification	Topic Classification CESSDA	Indicates a broad, important topic selected from the CESSDA Topic Classification that the Dataset covers. 		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	dansPersonalDataPresent	Yes	0	0												
+	dansPersonalDataPresent	No	1	1												
+	dansPersonalDataPresent	Unknown	2	2												
+	dansMetadataLanguage	Abkhaz		0												
+	dansMetadataLanguage	Afar		1												
+	dansMetadataLanguage	Afrikaans		2												
+	dansMetadataLanguage	Akan		3												
+	dansMetadataLanguage	Albanian		4												
+	dansMetadataLanguage	Amharic		5												
+	dansMetadataLanguage	Arabic		6												
+	dansMetadataLanguage	Aragonese		7												
+	dansMetadataLanguage	Armenian		8												
+	dansMetadataLanguage	Assamese		9												
+	dansMetadataLanguage	Avaric		10												
+	dansMetadataLanguage	Avestan		11												
+	dansMetadataLanguage	Aymara		12												
+	dansMetadataLanguage	Azerbaijani		13												
+	dansMetadataLanguage	Bambara		14												
+	dansMetadataLanguage	Bashkir		15												
+	dansMetadataLanguage	Basque		16												
+	dansMetadataLanguage	Belarusian		17												
+	dansMetadataLanguage	Bengali, Bangla		18												
+	dansMetadataLanguage	Bihari		19												
+	dansMetadataLanguage	Bislama		20												
+	dansMetadataLanguage	Bosnian		21												
+	dansMetadataLanguage	Breton		22												
+	dansMetadataLanguage	Bulgarian		23												
+	dansMetadataLanguage	Burmese		24												
+	dansMetadataLanguage	Catalan,Valencian		25												
+	dansMetadataLanguage	Chamorro		26												
+	dansMetadataLanguage	Chechen		27												
+	dansMetadataLanguage	Chichewa, Chewa, Nyanja		28												
+	dansMetadataLanguage	Chinese		29												
+	dansMetadataLanguage	Chuvash		30												
+	dansMetadataLanguage	Cornish		31												
+	dansMetadataLanguage	Corsican		32												
+	dansMetadataLanguage	Cree		33												
+	dansMetadataLanguage	Croatian		34												
+	dansMetadataLanguage	Czech		35												
+	dansMetadataLanguage	Danish		36												
+	dansMetadataLanguage	Divehi, Dhivehi, Maldivian		37												
+	dansMetadataLanguage	Dutch		38												
+	dansMetadataLanguage	Dzongkha		39												
+	dansMetadataLanguage	English		40												
+	dansMetadataLanguage	Esperanto		41												
+	dansMetadataLanguage	Estonian		42												
+	dansMetadataLanguage	Ewe		43												
+	dansMetadataLanguage	Faroese		44												
+	dansMetadataLanguage	Fijian		45												
+	dansMetadataLanguage	Finnish		46												
+	dansMetadataLanguage	French		47												
+	dansMetadataLanguage	Fula, Fulah, Pulaar, Pular		48												
+	dansMetadataLanguage	Galician		49												
+	dansMetadataLanguage	Georgian		50												
+	dansMetadataLanguage	German		51												
+	dansMetadataLanguage	Greek (modern)		52												
+	dansMetadataLanguage	Guaraní		53												
+	dansMetadataLanguage	Gujarati		54												
+	dansMetadataLanguage	Haitian, Haitian Creole		55												
+	dansMetadataLanguage	Hausa		56												
+	dansMetadataLanguage	Hebrew (modern)		57												
+	dansMetadataLanguage	Herero		58												
+	dansMetadataLanguage	Hindi		59												
+	dansMetadataLanguage	Hiri Motu		60												
+	dansMetadataLanguage	Hungarian		61												
+	dansMetadataLanguage	Interlingua		62												
+	dansMetadataLanguage	Indonesian		63												
+	dansMetadataLanguage	Interlingue		64												
+	dansMetadataLanguage	Irish		65												
+	dansMetadataLanguage	Igbo		66												
+	dansMetadataLanguage	Inupiaq		67												
+	dansMetadataLanguage	Ido		68												
+	dansMetadataLanguage	Icelandic		69												
+	dansMetadataLanguage	Italian		70												
+	dansMetadataLanguage	Inuktitut		71												
+	dansMetadataLanguage	Japanese		72												
+	dansMetadataLanguage	Javanese		73												
+	dansMetadataLanguage	Kalaallisut, Greenlandic		74												
+	dansMetadataLanguage	Kannada		75												
+	dansMetadataLanguage	Kanuri		76												
+	dansMetadataLanguage	Kashmiri		77												
+	dansMetadataLanguage	Kazakh		78												
+	dansMetadataLanguage	Khmer		79												
+	dansMetadataLanguage	Kikuyu, Gikuyu		80												
+	dansMetadataLanguage	Kinyarwanda		81												
+	dansMetadataLanguage	Kyrgyz		82												
+	dansMetadataLanguage	Komi		83												
+	dansMetadataLanguage	Kongo		84												
+	dansMetadataLanguage	Korean		85												
+	dansMetadataLanguage	Kurdish		86												
+	dansMetadataLanguage	Kwanyama, Kuanyama		87												
+	dansMetadataLanguage	Latin		88												
+	dansMetadataLanguage	Luxembourgish, Letzeburgesch		89												
+	dansMetadataLanguage	Ganda		90												
+	dansMetadataLanguage	Limburgish, Limburgan, Limburger		91												
+	dansMetadataLanguage	Lingala		92												
+	dansMetadataLanguage	Lao		93												
+	dansMetadataLanguage	Lithuanian		94												
+	dansMetadataLanguage	Luba-Katanga		95												
+	dansMetadataLanguage	Latvian		96												
+	dansMetadataLanguage	Manx		97												
+	dansMetadataLanguage	Macedonian		98												
+	dansMetadataLanguage	Malagasy		99												
+	dansMetadataLanguage	Malay		100												
+	dansMetadataLanguage	Malayalam		101												
+	dansMetadataLanguage	Maltese		102												
+	dansMetadataLanguage	Māori		103												
+	dansMetadataLanguage	Marathi (Marāṭhī)		104												
+	dansMetadataLanguage	Marshallese		105												
+	dansMetadataLanguage	Mixtepec Mixtec		106												
+	dansMetadataLanguage	Mongolian		107												
+	dansMetadataLanguage	Nauru		108												
+	dansMetadataLanguage	Navajo, Navaho		109												
+	dansMetadataLanguage	Northern Ndebele		110												
+	dansMetadataLanguage	Nepali		111												
+	dansMetadataLanguage	Ndonga		112												
+	dansMetadataLanguage	Norwegian Bokmål		113												
+	dansMetadataLanguage	Norwegian Nynorsk		114												
+	dansMetadataLanguage	Norwegian		115												
+	dansMetadataLanguage	Nuosu		116												
+	dansMetadataLanguage	Southern Ndebele		117												
+	dansMetadataLanguage	Occitan		118												
+	dansMetadataLanguage	Ojibwe, Ojibwa		119												
+	dansMetadataLanguage	Old Church Slavonic,Church Slavonic,Old Bulgarian		120												
+	dansMetadataLanguage	Oromo		121												
+	dansMetadataLanguage	Oriya		122												
+	dansMetadataLanguage	Ossetian, Ossetic		123												
+	dansMetadataLanguage	Panjabi, Punjabi		124												
+	dansMetadataLanguage	Pāli		125												
+	dansMetadataLanguage	Persian (Farsi)		126												
+	dansMetadataLanguage	Polish		127												
+	dansMetadataLanguage	Pashto, Pushto		128												
+	dansMetadataLanguage	Portuguese		129												
+	dansMetadataLanguage	Quechua		130												
+	dansMetadataLanguage	Romansh		131												
+	dansMetadataLanguage	Kirundi		132												
+	dansMetadataLanguage	Romanian		133												
+	dansMetadataLanguage	Russian		134												
+	dansMetadataLanguage	Sanskrit (Saṁskṛta)		135												
+	dansMetadataLanguage	Sardinian		136												
+	dansMetadataLanguage	Sindhi		137												
+	dansMetadataLanguage	Northern Sami		138												
+	dansMetadataLanguage	Samoan		139												
+	dansMetadataLanguage	Sango		140												
+	dansMetadataLanguage	Serbian		141												
+	dansMetadataLanguage	Scottish Gaelic, Gaelic		142												
+	dansMetadataLanguage	Shona		143												
+	dansMetadataLanguage	Sinhala, Sinhalese		144												
+	dansMetadataLanguage	Slovak		145												
+	dansMetadataLanguage	Slovene		146												
+	dansMetadataLanguage	Somali		147												
+	dansMetadataLanguage	Southern Sotho		148												
+	dansMetadataLanguage	Spanish, Castilian		149												
+	dansMetadataLanguage	Sundanese		150												
+	dansMetadataLanguage	Swahili		151												
+	dansMetadataLanguage	Swati		152												
+	dansMetadataLanguage	Swedish		153												
+	dansMetadataLanguage	Tamil		154												
+	dansMetadataLanguage	Telugu		155												
+	dansMetadataLanguage	Tajik		156												
+	dansMetadataLanguage	Thai		157												
+	dansMetadataLanguage	Tigrinya		158												
+	dansMetadataLanguage	Tibetan Standard, Tibetan, Central		159												
+	dansMetadataLanguage	Turkmen		160												
+	dansMetadataLanguage	Tagalog		161												
+	dansMetadataLanguage	Tswana		162												
+	dansMetadataLanguage	Tonga (Tonga Islands)		163												
+	dansMetadataLanguage	Turkish		164												
+	dansMetadataLanguage	Tsonga		165												
+	dansMetadataLanguage	Tatar		166												
+	dansMetadataLanguage	Twi		167												
+	dansMetadataLanguage	Tahitian		168												
+	dansMetadataLanguage	Uyghur, Uighur		169												
+	dansMetadataLanguage	Ukrainian		170												
+	dansMetadataLanguage	Urdu		171												
+	dansMetadataLanguage	Uzbek		172												
+	dansMetadataLanguage	Venda		173												
+	dansMetadataLanguage	Vietnamese		174												
+	dansMetadataLanguage	Volapük		175												
+	dansMetadataLanguage	Walloon		176												
+	dansMetadataLanguage	Welsh		177												
+	dansMetadataLanguage	Wolof		178												
+	dansMetadataLanguage	Western Frisian		179												
+	dansMetadataLanguage	Xhosa		180												
+	dansMetadataLanguage	Yiddish		181												
+	dansMetadataLanguage	Yoruba		182												
+	dansMetadataLanguage	Zhuang, Chuang		183												
+	dansMetadataLanguage	Zulu		184												
+	dansMetadataLanguage	Not applicable		185												
