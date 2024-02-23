@@ -1,6 +1,7 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	dansMetadata		DANS Specific metadata													  
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	dansRightsHolder	Rights Holder	State the organisation or individual that is holder of the intellectual property rights. For datasets, these rights are usually vested in the organisation that employs the data creator(s).		text	0		TRUE	FALSE	TRUE	FALSE	TRUE	TRUE		dansMetadata	
 	dansPersonalDataPresent	Personal Data In Dataset?	DANS needs to know whether your dataset contains personal data in the sense of the General Data Protection Regulation (GDPR).		text	1		FALSE	TRUE	FALSE	FALSE	TRUE	TRUE		dansMetadata	
 	dansMetadataLanguage	Language Of Metadata	Specify which language was used to describe this dataset		text	2		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
 	dansAudience	Audience	Use autocomplete to select the scientific disciplines to which the dataset is relevant.		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		dansMetadata	
