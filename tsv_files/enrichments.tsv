@@ -3,7 +3,7 @@
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	term	Term	This field contains a vocabulary term or concept matched to a keyword or other term present in the original metadata.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		enrichments	
 	vocabulary	Vocabulary	The vocabulary was used to match terms from the original metadata.		textbox	1	<b>#VALUE:</b> <br>	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
-	matchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the vocabulary.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
+	matchedTerm	 Matched Term	The term from the original metadata that was matched with a concept from the vocabulary.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
 	vocabVarLabel1	ELSST Preferred Term Name	The preferred term name of the vocabulary concept.		text	3		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
 	vocabVarUri1	ELSST URI	The URI of the vocabulary concept.	https://	url	4	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
 	vocabVarLabel2	ELSST Preferred Term Name -2	The preferred term name of the vocabulary concept.		text	5		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
