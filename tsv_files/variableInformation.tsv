@@ -15,7 +15,7 @@
 	odisseiConceptVariableWaardestelselnaam	Waardestelselnaam	Waardestelselnaam indicated by CBS.		textbox	11	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiVariableId	ID	Id to uniquely identify the variable.		textbox	12	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiVariableLabel	Label	Short description of the variable.		textbox	13	- <b>#NAME:</b> #VALUE <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
-	odisseiVariableVocabularyURI	Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:</b> <a href='https://skosmos.odissei.nl/cbs/nl/page/?clang=nl&uri=#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
+	odisseiVariableVocabularyURI	Vocabulary URI	Vocabulary URI for the variable.	https://	url	14	- <b>#NAME:</b> <a href='https://skosmos.odissei.nl/cbs/nl/page/?clang=nl&uri=#VALUE' target='_blank'>#VALUE</a> <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiVariableDefinition	Definition	Extra information related to the definition of the variable.		textbox	15	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiVariableProcessingInstruction	Processing Instruction	Information about how the variable was processed.		textbox	16	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiVariableDataType	Data Type	Data type of the variable.		textbox	17	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
