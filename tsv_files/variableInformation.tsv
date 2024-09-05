@@ -2,7 +2,7 @@
 	variableInformation		Variable Information													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	odisseiVariable	Variable	This element describes all of the features of a single (conceptual)variable in a social science data file.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		variableInformation	
-	odisseiVariableName	Name	Name of the variable.		textbox	1	<b>#VALUE:</b>  <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
+	odisseiVariableName	Name	Name of the variable.		textbox	1	<b>Name:</b> #VALUE  <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiConceptVariableName	Conceptual Variable Name	Name of the conceptual variable.		textbox	7	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiConceptVariableDefinition	Conceptual Variable Definition	The definition of the conceptual variable.		textbox	8	- <b>#NAME:</b> #VALUE <br>	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
 	odisseiConceptVariableID	Conceptual Variable ID	The ID of the conceptual variable.		textbox	9	- <b>#NAME:</b> #VALUE <br>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	odisseiVariable	variableInformation	
