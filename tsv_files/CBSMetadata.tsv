@@ -1,4 +1,4 @@
-#metadataBlock	name	dataverseAlias	displayName													
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
 	CBSMetadata		CBS specific Metadata													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	providerName	Provider Name	Name of the organisation that provided the metadata		text	0		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		CBSMetadata	

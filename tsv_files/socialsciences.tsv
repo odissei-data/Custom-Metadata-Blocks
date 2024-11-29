@@ -1,5 +1,5 @@
-#metadataBlock	name	dataverseAlias	displayName												
-	dansSocialSciences		Social Sciences and Humanities												
+#metadataBlock	name	dataverseAlias	displayName	blockURI											
+	dansSocialSciences		Social Sciences and Humanities	https://w3id.org/odissei/ns/portal/schema/socialsciences#											
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
 	dansElsstClassification	Keyword ELSST	A key term from the European Language Social Science Thesaurus (ELSST) that describes an important aspect of the Dataset. 		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansSocialSciences
 	dansCessdaClassification	Topic Classification CESSDA	Indicates a broad, important topic selected from the CESSDA Topic Classification that the Dataset covers. 		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansSocialSciences
