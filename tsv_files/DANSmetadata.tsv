@@ -5,14 +5,15 @@
 	dansRightsHolder	Rights Holder	State the organisation or individual that is holder of the intellectual property rights. For datasets, these rights are usually vested in the organisation that employs the data creator(s).		text	0		TRUE	FALSE	TRUE	FALSE	TRUE	TRUE		dansMetadata	
 	dansPersonalDataPresent	Personal Data In Dataset?	DANS needs to know whether your dataset contains personal data in the sense of the General Data Protection Regulation (GDPR).		text	1		FALSE	TRUE	FALSE	FALSE	TRUE	TRUE		dansMetadata	
 	dansMetadataLanguage	Language Of Metadata	Specify which language was used to describe this dataset		text	2		TRUE	TRUE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
-	dansAudience	Audience	Use autocomplete to select the scientific disciplines to which the dataset is relevant.		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		dansMetadata	
-	dansCollection	Collection	Use autocomplete to add the dataset to the collection of all datasets from a certain organisation.		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
-	dansRelation	Relation or Related Material	Enter the details of a related dataset or other source		none	2		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		dansMetadata	
-	dansRelationType	Type	Specify the type of relation between the current dataset and the related source. See https://www.dublincore.org/specifications/dublin-core/rdf-relation-types/, use 'Relation' if the relation type cannot be described with any of the other available qualifiers.		text	3		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	dansRelation	dansMetadata	
-	dansRelationText	Text	Enter the title of the related dataset or other source		text	4		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
-	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	5		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
-	dansElsstClassification	Keyword ELSST	A key term from the European Language Social Science Thesaurus (ELSST) that describes an important aspect of the Dataset. 		text	0		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
-	dansCessdaClassification	Topic Classification CESSDA	Indicates a broad, important topic selected from the CESSDA Topic Classification that the Dataset covers. 		text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansAudience	Audience	Use autocomplete to select the scientific disciplines to which the dataset is relevant.		text	3		TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		dansMetadata	
+	dansCollection	Collection	Use autocomplete to add the dataset to the collection of all datasets from a certain organisation.		text	4		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansRelation	Relation or Related Material	Enter the details of a related dataset or other source		none	5		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		dansMetadata	
+	dansRelationType	Type	Specify the type of relation between the current dataset and the related source. See https://www.dublincore.org/specifications/dublin-core/rdf-relation-types/, use 'Relation' if the relation type cannot be described with any of the other available qualifiers.		text	6		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansRelationText	Text	Enter the title of the related dataset or other source		text	7		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansRelationURI	URI	Enter the hyperlink of the related dataset or other source. Use a Persistent Identifier when possible.	https://	url	8		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	dansRelation	dansMetadata	
+	dansAATClassification	Keyword Getty AAT	A key term from the Getty Arts and Architecture Thesaurus (AAT) that describes an important aspect of the Dataset.		text	9		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansElsstClassification	Keyword ELSST	A key term from the European Language Social Science Thesaurus (ELSST) that describes an important aspect of the Dataset. 		text	10		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
+	dansCessdaClassification	Topic Classification CESSDA	Indicates a broad, important topic selected from the CESSDA Topic Classification that the Dataset covers. 		text	11		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		dansMetadata	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	dansPersonalDataPresent	Yes	0	0												
 	dansPersonalDataPresent	No	1	1												
