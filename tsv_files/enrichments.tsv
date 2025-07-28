@@ -10,7 +10,7 @@
 	vocabVarUri2	ELSST URI -2	The URI of the vocabulary concept.	https://	url	6	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
 	vocabVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the vocabulary concept.		text	7		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	term	enrichments	
 	vocabVarUri3	ELSST URI -3	The URI of the vocabulary concept.	https://	url	8	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	term	enrichments	
-	dansAATClassification	Keyword Getty AAT  A key term from the Getty Arts and Architecture Thesaurus (AAT) that describes an important aspect of the Dataset.	The URI of the vocabulary concept.	text   10    TRUE   FALSE  TRUE   TRUE   TRUE   FALSE	enrichments	
+	dansAATClassification	Keyword Getty AAT	test	text   10    TRUE   FALSE  TRUE   TRUE   TRUE   FALSE	enrichments	
 	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	9		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
 	cbsLinkage	Linkage to CBS Microdata	The linkage of the dataset with CBS microdata.		text	11		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
 	cbsLinkageDetails	Linkage Details	Additional details on the CBS microdata linkage.		textbox	12		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		enrichments	
